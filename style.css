@@ -1,0 +1,9 @@
+.container{
+    flex-direction: column;
+    justify-content: center;
+    padding:14px 0;
+}
+
+.add, .update{
+    display: none;
+}

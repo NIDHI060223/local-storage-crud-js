@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="getData()">
+    <div class="container">
+      <div class="row">
+        <form class="add">
+          <div>Name: <input type="text" name="" id="name" /></div>
+          <div>Email: <input type="text" name="" id="email" /></div>
+          <button type="button" onclick="add()">Add</button>
+        </form>     
+
+        <form class="update">
+            <input type="hidden" id="x">
+          <div>Name: <input type="text" name="" id="uname" class="x"/></div>
+          <div>Email: <input type="text" name="" id="uemail" class="y" /></div>
+          <div>
+            <button type="button" onclick="update()">Update</button>
+          </div>
+        </form>
+      </div>      
+
+      <button  onclick="addUser()" style="margin: 20px 0;">Add New</button>
+      
+      <table border="1" class="tableData">
+       
+        <tbody>
+         
+        </tbody>
+      </table>
+    </div>
+
+    <script  src="script.js">
+    
+    </script>
+  </body>
+</html>
